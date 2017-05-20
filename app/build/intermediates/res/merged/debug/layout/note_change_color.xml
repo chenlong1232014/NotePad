@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Background Color"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_color1"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+        android:layout_marginLeft="7dp"
+        android:background="#FFFFFF"/>
+        <TextView
+            android:id="@+id/text_color2"
+            android:layout_toRightOf="@+id/text_color1"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="7dp"
+            android:background="#FFFF00"/>
+        <TextView
+            android:id="@+id/text_color3"
+            android:layout_toRightOf="@+id/text_color2"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="7dp"
+            android:background="#FFA500"/>
+        <TextView
+            android:id="@+id/text_color4"
+            android:layout_toRightOf="@+id/text_color3"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="7dp"
+            android:background="#FFC0CB"/>
+        <TextView
+            android:id="@+id/text_color5"
+            android:layout_toRightOf="@+id/text_color4"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="7dp"
+            android:background="#FFF8DC"/>
+        <TextView
+            android:id="@+id/text_color6"
+            android:layout_toRightOf="@+id/text_color5"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="7dp"
+            android:background="#DDA0DD"/>
+        <TextView
+            android:id="@+id/text_color7"
+            android:layout_toRightOf="@+id/text_color6"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="7dp"
+            android:background="#87CEFA"/>
+        <TextView
+            android:id="@+id/text_color8"
+            android:layout_toRightOf="@+id/text_color7"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="7dp"
+            android:background="#90EE90"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
