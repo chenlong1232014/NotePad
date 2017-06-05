@@ -27,6 +27,21 @@ This is an AndroidStudio rebuild of google SDK sample NotePad<br>
 <br>
 
 ## 美化UI主要是定义一个shape.xml文件，来设置每个Item的样式设计。如圆角边框和空间摆放。下面图片则对应的是不同颜色对应的不同主界面主题。
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- 表示shape的四个角的角度。只适用于矩形shape，这里的角度是指圆角的程度 -->
+    <corners android:radius="20dp" />
+
+    <!-- 这个标签表示纯色填充，通过android:color即可指定shape中填充的颜色 -->
+    <solid android:color="#FFFFFF" />
+
+    <!-- Shape的描边，下面指定了描边的宽度和描边的颜色 -->
+    <stroke
+        android:width="1dp"
+        android:color="#FFFFFF" />
+</shape>
 ![Alt Text](https://github.com/chenlong1232014/NotePad/blob/master/app/src/main/res/image/7.png?raw=true)
 ![Alt Text](https://github.com/chenlong1232014/NotePad/blob/master/app/src/main/res/image/8.png?raw=true)
 ![Alt Text](https://github.com/chenlong1232014/NotePad/blob/master/app/src/main/res/image/9.png?raw=true)
