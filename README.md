@@ -41,7 +41,8 @@ This is an AndroidStudio rebuild of google SDK sample NotePad<br>
     <stroke
         android:width="1dp"
         android:color="#FFFFFF" />
-</shape>
+## </shape>
+
 ![Alt Text](https://github.com/chenlong1232014/NotePad/blob/master/app/src/main/res/image/7.png?raw=true)
 ![Alt Text](https://github.com/chenlong1232014/NotePad/blob/master/app/src/main/res/image/8.png?raw=true)
 ![Alt Text](https://github.com/chenlong1232014/NotePad/blob/master/app/src/main/res/image/9.png?raw=true)
